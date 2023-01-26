@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+
 body {
     margin: 0px;
-    font-family: 'Roboto';
+    font-family: "Roboto";
 }
 
 img{
@@ -18,18 +22,56 @@ header {
 /*DISH*/
 
 .dish{
+    background-color: #f7f2f2;
+    border-radius: 2rem;
+    padding-top: 10px;
+    position: relative;
+    bottom: 50px;
+    padding-bottom: 5rem;
+}
+
+.dishtitle{
     display: flex;
     align-items: baseline;
 }
 
 .dishheart{
     position: relative;
-    left: 120px;
+    left: 60px;
     font-size: 2rem;
 
 }
 
-.dishtitle{
-    margin-left: 10px;
-    font-family: "Shrikhland";
+.dishbigtitle{
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.dishbigtitle h1{
+    font-size: 30px
+}
+
+.titleentrées{
+    margin-left: 30px;
+    color: grey;
+}
+
+.choixentrées li{
+    background-color:white;
+    padding: 1.3rem 0.9rem;
+    border: 1px solid rgb(220, 219, 219);
+    border-radius: 1rem;
+    box-shadow: 2px 1px 5px -3px #000000;
+    cursor: pointer;
+    margin-right: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.choixentrées ul{
+    padding-left: 10px;
 }
