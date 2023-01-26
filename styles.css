@@ -201,9 +201,16 @@ section.navigation {
     align-items: center;
 }
 
-.fa-regular.fa-heart {
+.cardheart i {
     margin-right: 30px;
     margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.cardheart i:hover {
+    background-image: linear-gradient(to top, rgb(106, 32, 240, 0.7), rgba(246, 119, 246, 0.7));
+    opacity: 1;
 }
 
 .cardname p {
