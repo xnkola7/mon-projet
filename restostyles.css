@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto';
+}
+
+img{
+  max-width: 100%;
+}
+
+/*HEADER*/
+
+header {
+    box-sizing: border-box;
+    box-shadow: 0 0 0.5rem rgba(0 0 0 / 75%);
+    padding: 0.5rem;
+}
+
+/*DISH*/
+
+.dish{
+    display: flex;
+    align-items: baseline;
+}
+
+.dishheart{
+    position: relative;
+    left: 120px;
+    font-size: 2rem;
+
+}
+
+.dishtitle{
+    margin-left: 10px;
+    font-family: "Shrikhland";
+}
