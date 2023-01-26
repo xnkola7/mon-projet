@@ -178,6 +178,7 @@ section.navigation {
     right: 2rem;
     background-color: #99E2D0;
     margin-top: 15px;
+    border-radius: 5px;
 }
 
 .cardnew a {
@@ -202,7 +203,7 @@ section.navigation {
 
 .fa-regular.fa-heart {
     margin-right: 30px;
-
+    margin-bottom: 20px;
 }
 
 .cardname p {
