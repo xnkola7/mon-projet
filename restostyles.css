@@ -21,7 +21,7 @@ header {
 
 /*DISH*/
 
-.dish{
+main{
     background-color: #f7f2f2;
     border-radius: 2rem;
     padding-top: 10px;
@@ -74,4 +74,22 @@ header {
 
 .choixentrées ul{
     padding-left: 10px;
+}
+
+.command button{
+    display: grid;
+    justify-items: center;
+    position: relative;
+    bottom: 80px;
+    font-weight: 250;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    border: none;
+    background-image: linear-gradient(to top, rgb(106, 32, 240, 0.9), rgba(246, 119, 246, 0.9));
+    color: white;
+    box-shadow: 2px 1px 10px -3px #000000;
+    cursor: pointer;
+    margin-top: 20px;
+    opacity: 0.9;   
 }
