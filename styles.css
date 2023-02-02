@@ -15,6 +15,7 @@ a {
     text-align: center;
 }
 
+
 body {
     margin: 0px;
     font-family: 'Roboto';
@@ -79,11 +80,12 @@ section.navigation {
     cursor: pointer;
     margin-top: 20px;
     opacity: 0.9;
-   
+
 }
 
 .explore button:hover {
     font-weight: 600;
+    opacity: 0.7;
 }
 
 /*functionally*/
@@ -99,6 +101,7 @@ section.navigation {
     position: relative;
     left: -40px;
     display: inline-flex;
+    justify-content: center;
     width: 20px;
     height: 20px;
     color: white;
@@ -154,6 +157,9 @@ section.navigation {
 .functionally li i {
     margin-right: 1rem;
     color: grey;
+    position: relative;
+    right: 30px;
+    font-size: 20px;
 }
 
 /*RESTAURANT*/
@@ -202,7 +208,7 @@ section.navigation {
     align-items: center;
 }
 
-.cardheart{
+.cardheart {
     position: relative;
 }
 
@@ -211,14 +217,14 @@ section.navigation {
     margin-bottom: 20px;
     cursor: pointer;
     font-size: 2rem;
-    
+
 }
 
-.empty{
+.empty {
     opacity: 1;
 }
 
-.fill{
+.fill {
     opacity: 0;
     position: absolute;
     top: 0;
@@ -231,7 +237,7 @@ section.navigation {
     background-clip: text;
     -moz-background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color:transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 
