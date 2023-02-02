@@ -19,6 +19,7 @@ a {
 body {
     margin: 0px;
     font-family: 'Roboto';
+    transition: transform 1000ms linear;
 }
 
 header {
