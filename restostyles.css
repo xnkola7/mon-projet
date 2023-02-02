@@ -7,8 +7,8 @@ body {
     font-family: "Roboto";
 }
 
-img{
-  max-width: 100%;
+img {
+    max-width: 100%;
 }
 
 /*HEADER*/
@@ -21,8 +21,8 @@ header {
 
 /*DISH*/
 
-main{
-    background-color: #f7f2f2;
+main {
+    background-color: #faf8f8;
     border-radius: 2rem 2rem 0rem 0rem;
     padding-top: 10px;
     position: relative;
@@ -31,41 +31,41 @@ main{
     margin-bottom: -60px;
 }
 
-.dishtitle{
+.dishtitle {
     display: flex;
     align-items: baseline;
 }
 
-.dishheart{
+.dishheart {
     position: relative;
     left: 60px;
     font-size: 2rem;
 
 }
 
-.dishbigtitle{
+.dishbigtitle {
     margin-left: 30px;
     font-size: 20px;
 }
 
-.dishbigtitle h1{
+.dishbigtitle h1 {
     font-size: 30px
 }
 
-.titleentrées{
+.titleentrées {
     margin-left: 30px;
     color: grey;
 }
 
-.choixentrées li{
-    background-color:white;
+.nameLLL {
+    background-color: white;
     padding: 1.3rem 0.9rem;
     border: 1px solid rgb(220, 219, 219);
     border-radius: 1rem;
-    box-shadow: 2px 1px 5px -3px #000000;
+    box-shadow: 2px 4px 5px -3px #000000;
     cursor: pointer;
     margin-right: 20px;
-    font-weight: 500;
+    margin-left: 20px;
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -73,11 +73,19 @@ main{
 
 }
 
-.choixentrées ul{
+.entréesname h3 {
+    margin: 0
+}
+
+.entréesname p {
+    margin: 0
+}
+
+.choixentrées ul {
     padding-left: 10px;
 }
 
-.command button{
+.command button {
     display: grid;
     justify-items: center;
     position: relative;
@@ -93,5 +101,10 @@ main{
     box-shadow: 2px 1px 10px -3px #000000;
     cursor: pointer;
     margin-top: 20px;
-    opacity: 0.9;   
+    opacity: 0.9;
+}
+
+span.euros {
+    position: relative;
+    top: 10px;
 }
