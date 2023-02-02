@@ -90,11 +90,12 @@ main {
 }
 
 .entréesname h3 {
-    margin: 0
+    margin: 0;
 }
 
 .entréesname p {
-    margin: 0
+    margin: 0;
+    font-size: 15px;
 }
 
 .command button:hover{
