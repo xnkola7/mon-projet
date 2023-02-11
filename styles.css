@@ -9,6 +9,27 @@ a {
     text-decoration: none;
 }
 
+.chargement {
+    position: fixed;
+    display: grid;
+    place-items: center;
+    background-color: #ffffff;
+    height: 100vh;
+    inset: 0;
+    z-index: 1;
+    opacity: 0.9;
+    animation: disappear 200ms forwards ;
+    animation-delay: 3s;
+    transform-origin: top;
+}
+
+@keyframes disappear{
+    to{
+        transform: scale(0);
+    }
+}
+
+
 /*HEADER*/
 
 .title {
