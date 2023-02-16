@@ -73,8 +73,8 @@ main {
     padding-top: 40px;
 }
 
-.nameLLL:hover {
-    transform: scale(105%);
+.nameLLL:hover{
+    background-color: #99E2D0;
 }
 
 .nameLLL {
@@ -90,7 +90,19 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    animation: appear 3s;
+}
 
+@keyframes appear {
+    0% {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 .entréesname h3 {
