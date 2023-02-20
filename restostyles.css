@@ -28,6 +28,12 @@ header {
 
 /*DISH*/
 
+.img{
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
 main {
     background-color: #faf8f8;
     border-radius: 2rem 2rem 0rem 0rem;
@@ -37,6 +43,8 @@ main {
     padding-bottom: 5rem;
     margin-bottom: -60px;
 }
+
+
 
 .dishtitle {
     display: flex;
@@ -73,8 +81,17 @@ main {
     padding-top: 40px;
 }
 
-.nameLLL:hover{
+.check {
     background-color: #99E2D0;
+    margin-right: -42px;
+    overflow: hidden;
+
+}
+
+.check:hover {
+    margin-right: 0;
+    position: relative;
+    right: 10px;
 }
 
 .nameLLL {
