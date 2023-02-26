@@ -103,7 +103,6 @@ section.navigation {
     cursor: pointer;
     margin-top: 20px;
     opacity: 0.9;
-
 }
 
 .explore button:hover {
@@ -141,17 +140,18 @@ section.navigation {
     box-shadow: 2px 1px 5px -3px #000000;
     cursor: pointer;
     margin-right: 20px;
-    font-weight: 500;
+    font-weight: 600;
     margin-top: 30px;
 }
 
 .functionally li:hover {
-    font-weight: 500;
-    background-color: rgba(250, 238, 250, 0.913)
+    font-weight: 600;
+    background-color: rgba(250, 238, 250, 0.913); 
 }
 
 .fas.fa-store:hover {
     color: #9356DC;
+    font-weight: 900;
 
 }
 
@@ -201,7 +201,6 @@ section.navigation {
 }
 
 .cardnew {
-    border: 1px solid;
     position: absolute;
     width: 5rem;
     height: 2.5rem;
