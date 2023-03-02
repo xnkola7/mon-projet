@@ -49,11 +49,12 @@ main {
 .dishtitle {
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
 }
 
 .dishheart {
     position: relative;
-    left: 30px;
+    left: -15px;
     font-size: 2rem;
 
 }
@@ -75,7 +76,7 @@ main {
     padding-left: 20px;
 }
 
-.titleentrées h3:after{
+.titleentrées h3:after {
     content: '';
     width: 50px;
     height: 4px;
@@ -94,24 +95,6 @@ main {
     padding-top: 40px;
 }
 
-.check {
-    background-color: #99E2D0;
-    display: none;
-    position: absolute;
-    border-radius: 0 15px 15px 0;
-    right: -1px;
-    padding: 0 13px;
-    height: 100%;
-}
-
-.check i {
-    font-size: 30px;
-    color: white;
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
-    -webkit-animation: rotate 0.5s both;
-    animation: rotate 0.5s both;
-}
 
 .nameLLL {
     background-color: white;
@@ -143,63 +126,53 @@ main {
 
 .NAN {
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
+    justify-content: space-between;
 }
 
-.nameLLL .validator{
+.nameLLL .validator {
+    overflow: hidden;
+}
+
+.nameLLL:hover .validator {
     display: none;
     position: absolute;
     background: #99E2D0;
     border-radius: 0 15px 15px 0;
-    right: 10px;
+    right: 20px;
     padding: 0 10px;
     height: 85px;
     display: flex;
     align-items: center;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
-.nameLLL:hover .validator{
-    animation: slide-left 0.5s cubic-bezier(0.33, 0.02, 0.25, 1)
-}
-
-.nameLLL .validator i{
+.nameLLL .validator i {
     font-size: 30px;
     color: white;
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
-    -webkit-animation: rotate 0.5s both;
-    animation: rotate 0.5s both;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-animation: rotate 2s both;
+    animation: rotate 2s both;
 }
 
-.fas{
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-}
-
-.entréesname {
-    white-space: nowrap;
-    overflow: hidden;
-}
 
 .entréesname h3 {
     margin: 0;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .entréesname p {
     margin: 0;
     font-size: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .command button:hover {
@@ -228,9 +201,4 @@ main {
 
 span.euros {
     font-weight: bold;
-    padding-left: 7px;
-}
-
-.eurosname:hover{
-    padding-right: 26px ;
 }
