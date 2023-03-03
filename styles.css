@@ -146,23 +146,11 @@ section.navigation {
 
 .functionally li:hover {
     font-weight: 600;
-    background-color: rgba(250, 238, 250, 0.913); 
+    background-color: rgba(250, 238, 250, 0.913);
 }
 
-.fas.fa-store:hover {
+.Card:hover .Card_icon{
     color: #9356DC;
-    font-weight: 900;
-
-}
-
-.fas.fa-list-ul:hover {
-    color: #9356DC;
-
-}
-
-.fas.fa-mobile-alt:hover {
-    color: #9356DC;
-
 }
 
 

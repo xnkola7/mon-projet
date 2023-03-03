@@ -133,6 +133,7 @@ main {
 
 .nameLLL .validator {
     overflow: hidden;
+    margin-right: -53px;
 }
 
 .nameLLL:hover .validator {
@@ -140,7 +141,7 @@ main {
     position: absolute;
     background: #99E2D0;
     border-radius: 0 15px 15px 0;
-    right: 20px;
+    right: 68px;
     padding: 0 10px;
     height: 85px;
     display: flex;
@@ -152,11 +153,23 @@ main {
 
 .nameLLL .validator i {
     font-size: 30px;
+    color: #faf8f8;
+
+}
+
+.nameLLL:hover .validator i {
+    animation: rotate 1s;
     color: white;
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-    -webkit-animation: rotate 2s both;
-    animation: rotate 2s both;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(-260deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
 }
 
 
@@ -165,6 +178,7 @@ main {
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     overflow: hidden;
+    white-space: nowrap;
 }
 
 .entréesname p {
@@ -202,3 +216,8 @@ main {
 span.euros {
     font-weight: bold;
 }
+
+.nameLLL:hover span.euros {
+    margin-left: -65px;
+}
+
