@@ -149,7 +149,7 @@ section.navigation {
     background-color: rgba(250, 238, 250, 0.913);
 }
 
-.Card:hover .Card_icon{
+.Card li:hover .Card_icon {
     color: #9356DC;
 }
 
