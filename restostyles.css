@@ -137,7 +137,7 @@ main {
 
 .nameLLL .validator {
     overflow: hidden;
-    margin-right: -53px;
+    margin-right: -65px;
 }
 
 .nameLLL:hover .validator {
@@ -145,7 +145,7 @@ main {
     position: absolute;
     background: #99E2D0;
     border-radius: 0 15px 15px 0;
-    right: 68px;
+    right: 80px;
     padding: 0 10px;
     height: 85px;
     display: flex;
@@ -157,7 +157,7 @@ main {
 
 .nameLLL .validator i {
     font-size: 30px;
-    color: #faf8f8;
+    color: #ffffff;
 
 }
 
@@ -203,7 +203,7 @@ main {
     justify-items: center;
     position: relative;
     top: 20px;
-    left: 115px;
+    left: 517px;
     font-weight: 250;
     font-size: 1rem;
     padding: 1rem 2rem;
@@ -225,3 +225,25 @@ span.euros {
     margin-left: -65px;
 }
 
+@media only screen and (max-width: 768px){
+
+    .command button {
+        display: grid;
+        justify-items: center;
+        position: relative;
+        top: 20px;
+        left: 115px;
+        font-weight: 250;
+        font-size: 1rem;
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        border: none;
+        background-image: linear-gradient(to top, rgb(106, 32, 240, 0.9), rgba(246, 119, 246, 0.9));
+        color: white;
+        box-shadow: 2px 1px 10px -3px #000000;
+        cursor: pointer;
+        margin-top: 20px;
+        opacity: 0.9;
+    }
+    
+} 
