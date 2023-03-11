@@ -131,7 +131,7 @@ main {
     justify-content: space-between;
 }
 
-.nameLLL:hover .entréesname{
+.nameLLL:hover .entréesname {
     width: 75%;
 }
 
@@ -225,7 +225,7 @@ span.euros {
     margin-left: -65px;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
 
     .command button {
         display: grid;
@@ -245,5 +245,26 @@ span.euros {
         margin-top: 20px;
         opacity: 0.9;
     }
-    
-} 
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .command button {
+        display: grid;
+        justify-items: center;
+        position: relative;
+        top: 20px;
+        left: 318px;
+        font-weight: 250;
+        font-size: 1rem;
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        border: none;
+        background-image: linear-gradient(to top, rgb(106, 32, 240, 0.9), rgba(246, 119, 246, 0.9));
+        color: white;
+        box-shadow: 2px 1px 10px -3px #000000;
+        cursor: pointer;
+        margin-top: 20px;
+        opacity: 0.9;
+    }
+}
